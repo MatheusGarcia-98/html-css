@@ -1,2 +1,2 @@
 # html-css
-estudos do HTML%5 e CSS3
+estudos do HTML5 e CSS3
