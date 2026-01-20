@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente </h1>
+   <p>Este videos está hospetado no meu próprio servidor</p>
+   <video width="250" poster="imagem/capa.jpg" controls>
+        <source src="midia/meuvideo.webm" type="video/webm">
+        <source src="midia/meuvideo.m4v" type="video/mp4">
+        <source src="midia/meuvideo.ogv" type="video/ogg">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <p>Seu navegador nao tem compatibilidade com reprodução de videos.</p>
+   </video>
+
+   <h1>Insirindo videos do YouTube</h1>
+   <iframe src="https://www.youtube.com/embed/ePLRFgbZquM?si=9k0MX8yeJ3eGMjLa" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="YouTube video player"></iframe>
+
+   <h1>Insirindo video do Vimeo</h1>
+   <iframe src="https://player.vimeo.com/video/137613889?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="6LD - Commissioned Commercial"></iframe>
+</body>
+</html>
