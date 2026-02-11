@@ -8,6 +8,7 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
             padding-left: 20px;
+            background-color: rgba(238, 185, 185, 0.986);
         }
 
         table{
@@ -30,6 +31,14 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color:white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color:lightgray;
         }
 
         td.num{
