@@ -14,10 +14,22 @@
             
         }
 
+        thead  {
+            background-color: rgb(73, 73, 73);
+            color: white;
+            height: 80px;
+        }
+
         td, th {
             border: 1px solid black;
-            padding: 15px;
+            padding: 10px;
             text-align: center;
+        }
+
+
+        .media {
+            background-color: rgb(73, 73, 73);
+            color: white
         }
     </style>
 </head>
@@ -26,7 +38,7 @@
         <thead>
             <th scope="col">Área</th>
             <th scope="rowgroup">Diciplina</th>
-            <th colspan="2" scope="rowgroup">Notas </th>
+            <th colspan="2" scope="rowgroup">Notas</th>
             <th scope="row">Media</th>
         </thead>
 
@@ -58,8 +70,8 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" scope="col">Media de Exata</th>
-                <td>0.0</td>
+                <th class="media" colspan="4" scope="col">Media de Exata</th>
+                <td class="media">0.0</td>
                 
             </tr>
             <tr>
@@ -76,8 +88,8 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" scope="col">Media Humanas</th>
-                <td>0.0</td>
+                <th class="media" colspan="4" scope="col">Media Humanas</th>
+                <td class="media">0.0</td>
             </tr>
 
         </tbody>
