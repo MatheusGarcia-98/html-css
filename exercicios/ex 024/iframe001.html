@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo de Iframe</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
     <H1>Testando o uso de um iframe</H1>
-    <p>
-    Acessando o site do 
-        
-        <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe>
+
+    <p>Acessando o site do 
+        <!--Por padrão o tamanho é de 300x150-->
+        <iframe src="https://www.cursoemvideo.com/" frameborder="0" height="500" scolling="no"> 
+            <a href="https://www.cursoemvideo.com/" target="_blank" rel="external"></a>
+        </iframe>
 
     para aprender a programar</p>
-    <p>
-        O site do <iframe src="https://www.google.com/?hl=pt_BR" frameborder="0"></iframe> tambem é muito legal
-    </p>
+
+    <p>O meu site criado no curso de HTML 5 & CSS3 <iframe src= "https://matheusgarcia-98.github.io/projeto-cordel/" frameborder="0" height="500" width="500"> 
+            <a href="https://matheusgarcia-98.github.io/projeto-cordel/" target="_blank" rel="external"></a>
+        </iframe>
+        tambem é legal</p>
+        <!--Tem como fazer as configurações pelo css que são em mairia soberana -->
 </body>
 </html>
