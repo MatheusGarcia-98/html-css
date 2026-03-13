@@ -15,6 +15,7 @@ html, body{
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagem/cev-landscape.jpg);
+    background-position: left bottom;
 }
 
 h1{
