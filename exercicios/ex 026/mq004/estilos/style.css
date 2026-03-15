@@ -46,7 +46,7 @@ img#phone {
 }
 
 img#tablet {
-    display: block;
+    display: none;
 }
 
 img#print{
